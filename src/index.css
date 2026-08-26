@@ -1,0 +1,65 @@
+@import 'tailwindcss';
+
+@font-face {
+  font-family: 'Mabry Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/Mabry_Pro-Regular.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Mabry Pro';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('/fonts/Mabry_Pro-Medium.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Mabry Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/fonts/Mabry_Pro-Bold.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Mabry Pro';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url('/fonts/Mabry_Pro-Black.woff2') format('woff2');
+}
+
+@theme {
+  --color-white: #f0f0fc;
+  --color-brand-100: #dad9f8;
+  --color-brand-200: #b8b7f2;
+  --color-brand-300: #9a98ed;
+  --color-brand-400: #6460df;
+  --color-prime: #252090;
+  --color-ink: #0a083c;
+
+  --font-sans: 'Mabry Pro', system-ui, sans-serif;
+  --font-display: 'Mabry Pro', system-ui, sans-serif;
+  --radius: 0px;
+}
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-white);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background-color: var(--color-brand-400);
+  color: var(--color-white);
+}

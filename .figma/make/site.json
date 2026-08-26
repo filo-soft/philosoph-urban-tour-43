@@ -1,0 +1,11 @@
+{
+  "title": "ПригласительныйУрбанТур",
+  "description": "Create a simple, stylish landing page for invitations with customizable colors, optimized for both desktop and mobile, ready for quick deployment.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
